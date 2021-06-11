@@ -1,0 +1,210 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'ja' Physical Memory: 7959 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/hnlPublic/Desktop/Unity/Shirichon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50303
+Successfully changed project path to: C:/Users/hnlPublic/Desktop/Unity/Shirichon
+C:/Users/hnlPublic/Desktop/Unity/Shirichon
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hnlPublic/Desktop/Unity/Shirichon/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     3979 MB
+    Driver:   26.20.100.7156
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006837 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.315 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003072 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.820 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 3.001100 ms (FindLiveObjects: 0.611900 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.117900 ms  DeleteObjects: 0.158600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/TitleScene.unity
+  artifactKey: Guid(ee934303e840e1044aba1fbd11aa814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TitleScene.unity using Guid(ee934303e840e1044aba1fbd11aa814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684a6ad90dbaedcdcbc006c4f825e129') in 0.039222 seconds
+  Import took 0.045885 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.386 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 5.389200 ms (FindLiveObjects: 0.450200 ms CreateObjectMapping: 0.443300 ms MarkObjects: 4.360700 ms  DeleteObjects: 0.133200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1418.318976 seconds.
+  path: Assets/画像/Unchi.png
+  artifactKey: Guid(8a71b0903e6af3047bc7eb21f0402164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/画像/Unchi.png using Guid(8a71b0903e6af3047bc7eb21f0402164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4515ce47006d239c2a4d1fae4675d0') in 0.258901 seconds
+  Import took 0.265252 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.626 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 2.563400 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.128200 ms MarkObjects: 2.016500 ms  DeleteObjects: 0.118300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002958 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.513 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 2.424800 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.076100 ms MarkObjects: 1.966100 ms  DeleteObjects: 0.123500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.356 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.3 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 3.446400 ms (FindLiveObjects: 0.416900 ms CreateObjectMapping: 0.136800 ms MarkObjects: 2.695900 ms  DeleteObjects: 0.194400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 3.451400 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.120300 ms MarkObjects: 2.857500 ms  DeleteObjects: 0.165800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 987.609999 seconds.
+  path: Assets/Scenes/HowToPlayScene.unity
+  artifactKey: Guid(d201977547752ab469a4ea328905a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HowToPlayScene.unity using Guid(d201977547752ab469a4ea328905a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b144477d04f9c9bf0e1366994ce885') in 0.030435 seconds
+  Import took 0.036477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.178456 seconds.
+  path: Assets/Scenes/HowToPlayScene.unity
+  artifactKey: Guid(d201977547752ab469a4ea328905a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HowToPlayScene.unity using Guid(d201977547752ab469a4ea328905a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1f5a61a010eb6e12be7ce2a88c3d35') in 0.014914 seconds
+  Import took 0.029104 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 3.896100 ms (FindLiveObjects: 0.364000 ms CreateObjectMapping: 0.206800 ms MarkObjects: 3.197400 ms  DeleteObjects: 0.126500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
