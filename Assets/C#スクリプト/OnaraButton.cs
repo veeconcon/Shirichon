@@ -7,6 +7,7 @@ public class OnaraButton : MonoBehaviour
 {
     GameObject onaraGenerator;
     GameObject director;
+    public GameObject hip;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class OnaraButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (this.director.GetComponent<GameDirector>().yakiimoNum > 0)
+        if (this.hip != null && this.director.GetComponent<GameDirector>().yakiimoNum > 0)
         {
             GetComponent<Button>().interactable = true;
         }
