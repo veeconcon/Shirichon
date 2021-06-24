@@ -23,7 +23,7 @@ public class YakiimoGenerator : MonoBehaviour
         {
             this.delta = 0;
             GameObject go = Instantiate(yakiimoPrefab) as GameObject;
-            float px = Random.Range(-15.0f, 15.0f);
+            float px = Random.Range(-11.0f, 11.0f);
             go.transform.position = new Vector3(px, this.mainCamera.transform.position.y + 30.0f, 0);
 
         }

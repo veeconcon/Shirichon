@@ -18,7 +18,7 @@ public class UnchiUIPosition : MonoBehaviour
         if (this.hip != null)
         {
             Vector3 hipPosition = this.hip.transform.position;
-            this.transform.position = new Vector3(hipPosition.x, hipPosition.y + 7.0f, hipPosition.z);
+            this.transform.position = new Vector3(hipPosition.x, hipPosition.y + 4.5f, hipPosition.z);
         }
         else
         {

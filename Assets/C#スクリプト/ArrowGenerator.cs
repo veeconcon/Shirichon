@@ -6,6 +6,7 @@ public class ArrowGenerator : MonoBehaviour
 {
     GameObject director;
     public GameObject arrowPrefab;
+    public GameObject mainCamera;
     float span;
     float delta = 0;
     int scoreNum;
@@ -36,8 +37,15 @@ public class ArrowGenerator : MonoBehaviour
         {
             this.delta = 0;
             GameObject go = Instantiate(arrowPrefab) as GameObject;
-            float px = Random.Range(-15.0f, 15.0f);
-            go.transform.position = new Vector3(px, 0, 0);
+
+            //指をランダムの位置に生成
+            float px = Random.Range(-11.0f, 11.0f);
+
+            //お尻のy座標を取得
+            Vector3 cameraPos = this.mainCamera.transform.position;
+
+            //指の位置指定
+            go.transform.position = new Vector3(px, cameraPos.y - 30.0f, 0);
 
         }
 

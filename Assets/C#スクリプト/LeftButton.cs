@@ -39,7 +39,7 @@ public class LeftButton : MonoBehaviour
     {
         if (this.hip != null)
         {
-            if (this.hip.transform.position.x > -15.0f)
+            if (this.hip.transform.position.x > -11.0f)
             {
                 this.hip.transform.position += Vector3.left * speedLateral * Time.deltaTime;
             }

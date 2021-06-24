@@ -24,7 +24,7 @@ public class HipController : MonoBehaviour
         //¶ˆÚ“®
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if (this.transform.position.x > -15.0f)
+            if (this.transform.position.x > -11.0f)
             {
                 this.transform.position += Vector3.left * speedLateral * Time.deltaTime;
 
@@ -34,7 +34,7 @@ public class HipController : MonoBehaviour
         //‰EˆÚ“®
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            if (this.transform.position.x < 15.0f)
+            if (this.transform.position.x < 11.0f)
             {
                 this.transform.position += Vector3.right * speedLateral * Time.deltaTime;
             }
